@@ -1,7 +1,4 @@
-/* ==========================================================
-   1. DEĞİŞKENLER VE GENEL AYARLAR
-   Renkleri değiştirmek için sadece bu bölümü düzenlemen yeterli.
-   ========================================================== */
+/* Renkler */
 :root {
   --navy: #641111;
   --gray-light: #f3f4f6;
@@ -18,8 +15,8 @@
 }
 
 html {
-  scroll-behavior: smooth;   /* bağlantılara tıklayınca yumuşak kaydırma */
-  scroll-padding-top: 80px;   /* sabit navbar'ın başlığı kapatmasını önler */
+  scroll-behavior: smooth;   
+  scroll-padding-top: 80px;   
 }
 
 body {
@@ -52,7 +49,7 @@ h3 {
   font-size: 1.1rem;
 }
 
-/* İçeriği ortalayan ve genişliği sınırlayan kutu */
+
 .container {
   width: 100%;
   max-width: 1040px;
@@ -60,9 +57,7 @@ h3 {
   padding: 0 1.5rem;
 }
 
-/* ==========================================================
-   2. NAVBAR
-   ========================================================== */
+/*2. NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -98,9 +93,7 @@ h3 {
   color: var(--navy);
 }
 
-/* ==========================================================
-   3. HERO
-   ========================================================== */
+/*3. HERO */
 .hero {
   padding: 6rem 0;
 }
@@ -159,9 +152,7 @@ h3 {
   object-fit: cover;
 }
 
-/* ==========================================================
-   4. BUTONLAR
-   ========================================================== */
+/* 4. BUTONLAR */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.75rem;
@@ -189,9 +180,7 @@ h3 {
   background: var(--gray-light);
 }
 
-/* ==========================================================
-   5. GENEL BÖLÜM DÜZENİ
-   ========================================================== */
+/*5. GENEL BÖLÜM DÜZENİ */
 .section {
   padding: 5rem 0;
 }
@@ -200,9 +189,7 @@ h3 {
   background: var(--gray-light);
 }
 
-/* ==========================================================
-   6. ABOUT
-   ========================================================== */
+/* 6. ABOUT */
 .about-grid {
   max-width: 800px;
 }
@@ -212,9 +199,7 @@ h3 {
   font-size: 1.05rem;
 }
 
-/* ==========================================================
-   7. SKILLS
-   ========================================================== */
+/*7. SKILLS */
 .skills-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -237,9 +222,7 @@ h3 {
   font-size: 0.95rem;
 }
 
-/* ==========================================================
-   8. PROJECTS
-   ========================================================== */
+/*8. PROJECTS*/
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -277,9 +260,7 @@ h3 {
   text-decoration: underline;
 }
 
-/* ==========================================================
-   9. EDUCATION
-   ========================================================== */
+/* 9. EDUCATION */
 .education-box {
   background: var(--white);
   border: 1px solid var(--gray-border);
@@ -298,9 +279,7 @@ h3 {
   font-size: 0.95rem;
 }
 
-/* ==========================================================
-   10. CONTACT
-   ========================================================== */
+/* 10. CONTACT*/
 .contact-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -333,9 +312,7 @@ h3 {
   border-color: var(--navy);
 }
 
-/* ==========================================================
-   11. RESPONSIVE (TABLET VE MOBİL)
-   ========================================================== */
+/* 11. RESPONSIVE (TABLET VE MOBİL) */
 
 /* Tablet */
 @media (max-width: 900px) {
@@ -372,7 +349,7 @@ h3 {
   }
 
   .hero-inner {
-    flex-direction: column-reverse;   /* fotoğraf üstte, yazı altta */
+    flex-direction: column-reverse; 
     text-align: center;
   }
 
@@ -399,6 +376,6 @@ h3 {
   }
 
   html {
-    scroll-padding-top: 120px;   /* mobilde navbar iki satır olduğu için */
+    scroll-padding-top: 120px;  
   }
 }
